@@ -47,8 +47,8 @@ This is the simplest way to run the entire application stack (Backend, Frontend,
 ### Steps
 1.  **Clone the Repository:**
     ```bash
-    git clone "https://github.com/MinhHuy1507/vietnam-agriculture-app-public"
-    cd vietnam-agriculture-app-public
+    git clone "https://github.com/MinhHuy1507/cs313-vietnam-agriculture"
+    cd cs313-vietnam-agriculture
     ```
 
 2.  **Sync Local Database (Optional but Recommended):**
