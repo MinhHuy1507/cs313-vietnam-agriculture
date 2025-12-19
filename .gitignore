@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+*.venv/
+*venv*
+backend_venv/
+frontend_venv/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Streamlit
+.streamlit/secrets.toml
+.streamlit/
+secrets.toml
+
+# Environment variables
+.env
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Large model files (GitHub limit 100MB)
+*.pkl
+*.h5
+*.pt
+*.pth
+
+# Personal notes
+note.txt
