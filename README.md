@@ -4,9 +4,10 @@
 
 ![Streamlit Dashboard Screenshot](assets/front_dashboard.png)
 
-<h2>Thành viên nhóm</h2>
+<h2>Team Members</h2>
 
-| MSSV | Họ và Tên |
+
+| MSSV | Name |
 | :--- | :--- |
 | 23520587 | Nguyễn Đức Hướng |
 | 23520623 | Ngô Minh Huy |
