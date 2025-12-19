@@ -28,7 +28,6 @@ secrets.toml
 Thumbs.db
 
 # Large model files (GitHub limit 100MB)
-*.pkl
 *.h5
 *.pt
 *.pth

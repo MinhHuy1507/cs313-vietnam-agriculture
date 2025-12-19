@@ -4,51 +4,23 @@
 
 ![Streamlit Dashboard Screenshot](assets/front_dashboard.png)
 
+<h2>Thành viên nhóm</h2>
+
+| MSSV | Họ và Tên |
+| :--- | :--- |
+| 23520587 | Nguyễn Đức Hướng |
+| 23520623 | Ngô Minh Huy |
+| 23520667 | Nguyễn Hoàng Kha |
+| 23520701 | Nguyễn Vũ Khang |
+| 23520730 | Trương Hoàng Khiêm |
+| 23520801 | Nguyễn Nghĩa Trung Kiên |
+| 23520822 | Trần Tuấn Kiệt |
+| 23520845 | Lê Xuân Song Lĩnh |
+
 </div>
 
-This repository contains the **application layer** for an end-to-end data engineering project. It consists of a decoupled FastAPI backend (API) and a Streamlit frontend (dashboard) to serve and visualize agricultural data for Vietnam.
-
-The data itself is sourced, processed, and managed by a separate data pipeline project.
-
----
-
-## 🔗 Related Projects
-
-This application is the visualization layer of a complete end-to-end data engineering ecosystem. To understand how the data is collected and processed, check out the upstream repositories:
-
-*   **[Vietnam Agriculture Data Lake](https://github.com/MinhHuy1507/vietnam-agriculture-datalake-public)**
-    *   **Role:** Data Ingestion & Storage.
-    *   **Function:** Collects raw data from General Statistics Office Of Viet Nam (GSO), NASA POWER, Google Earth Engine.
-
-*   **[Vietnam Agriculture Data Warehouse](https://github.com/MinhHuy1507/vietnam-agriculture-data-warehouse-public)**
-    *   **Role:** Data Transformation & Modeling.
-    *   **Function:** Builds a Data Warehouse (Star Schema) from the Data Lake using Airflow and dbt for optimized analytics.
 
 
-## 🚀 Live Demo
-
-This application is deployed as two separate services:
-
-* **Frontend (Streamlit Dashboard):**
-    [vietnam-agri-app-public.streamlit.app](https://vietnam-agriculture-app-public.streamlit.app/)
-* **Backend (FastAPI API Docs):**
-    [FastAPI/docs](https://vietnam-agriculture-app-public-backend.onrender.com/docs)
-
----
-
-## 🏛️ Architecture Overview
-
-This project follows a decoupled, microservice-based architecture, containerized with Docker.
-
-1.  **Backend (API Service):** A high-performance **FastAPI** application responsible for serving data from the PostgreSQL database via RESTful endpoints.
-    * **➡️ [View Backend Details](./backend/README.md)**
-
-2.  **Frontend (Dashboard Service):** A multi-page **Streamlit** application that acts as the presentation layer. It calls the Backend API to fetch data and renders interactive visualizations.
-    * **➡️ [View Frontend Details](./frontend/README.md)**
-
-3.  **Database (Data Service):** A **PostgreSQL** database (hosted on Render) that stores the cleaned data (agri, climate, soil) prepared by the data pipeline.
-
-![Kiến trúc Ứng dụng](<URL_ĐẾN_ẢNH_KIẾN_TRÚC_BACKEND_FRONTEND_CỦA_BẠN>)
 
 ## 🛠️ Combined Technology Stack
 
